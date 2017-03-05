@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorSourcePink">#AD1457</color>
+    <color name="colorSourceRed">#C62828</color>
+    <color name="colorSourcePurple">#6A1B9A</color>
+    <color name="colorSourceDeepPurple">#4527A0</color>
+    <color name="colorSourceIndigo">#283593</color>
+    <color name="colorSourceBlue">#1565C0</color>
+    <color name="colorSourceLightBlue">#0277BD</color>
+    <color name="colorSourceCyan">#00838F</color>
+    <color name="colorSourceTeal">#00695C</color>
+    <color name="colorSourceGreen">#2E7D32</color>
+    <color name="colorSourceAmber">#FF8F00</color>
+    <color name="colorSourceOrange">#EF6C00</color>
+    <color name="colorSourceDeepOrange">#D84315</color>
+    <array name="sourceColors">
+        <item>@color/colorSourcePink</item>
+        <item>@color/colorSourceRed</item>
+        <item>@color/colorSourcePurple</item>
+        <item>@color/colorSourceDeepPurple</item>
+        <item>@color/colorSourceIndigo</item>
+        <item>@color/colorSourceBlue</item>
+        <item>@color/colorSourceLightBlue</item>
+        <item>@color/colorSourceCyan</item>
+        <item>@color/colorSourceTeal</item>
+        <item>@color/colorSourceGreen</item>
+        <item>@color/colorSourceAmber</item>
+        <item>@color/colorSourceOrange</item>
+        <item>@color/colorSourceDeepOrange</item>
+    </array>
+</resources>

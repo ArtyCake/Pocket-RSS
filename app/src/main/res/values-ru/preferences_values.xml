@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="il_entries">
+        <item>Только по WiFi</item>
+        <item>Всегда</item>
+        <item>Никогда</item>
+    </string-array>
+    <string-array name="up_entries">
+        <item>10 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>6 часов</item>
+        <item>Никогда</item>
+    </string-array>
+    <string-array name="st_entries">
+        <item>1 день</item>
+        <item>5 дней</item>
+        <item>10 дней</item>
+        <item>15 дней</item>
+        <item>1 месяц</item>
+        <item>Вечно</item>
+    </string-array>
+</resources>

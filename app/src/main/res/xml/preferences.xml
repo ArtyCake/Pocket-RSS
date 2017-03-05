@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_group_main_title">
+        <ListPreference
+            android:defaultValue="il_wifi_only"
+            android:entries="@array/il_entries"
+            android:entryValues="@array/il_entries_values"
+            android:key="image_loading"
+            android:summary="@string/il_summary"
+            android:title="@string/il_title"/>
+        <ListPreference
+            android:defaultValue="10"
+            android:entries="@array/st_entries"
+            android:entryValues="@array/st_entries_values"
+            android:key="storage_time"
+            android:summary="@string/st_summary"
+            android:title="@string/pref_st_title"
+            />
+        <Preference
+            android:key="clear_all"
+            android:summary="@string/pref_clear_summary"
+            android:title="@string/pref_clear_title"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_group_sync_title">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="update_wifi_only"
+            android:summary="@string/pref_uwo_summary"
+            android:title="@string/pref_uwo_title"/>
+        <ListPreference
+            android:defaultValue="30"
+            android:entries="@array/up_entries"
+            android:entryValues="@array/up_entries_values"
+            android:key="update_period"
+            android:summary="@string/pref_up_summary"
+            android:title="@string/pref_up_title"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_group_interface_title">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="use_dark_theme"
+            android:title="@string/prefs_dark_theme_label"/>
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="use_in_app_browser"
+            android:summaryOff="@string/prefs_browser_summary_off"
+            android:summaryOn="@string/prefs_browser_summary_on"
+            android:title="@string/prefs_browser_label"
+            />
+    </PreferenceCategory>
+    <PreferenceScreen
+        android:summary="@string/pref_about_summary"
+        android:title="@string/app_name">
+        <intent android:action="com.artycake.openabout"/>
+    </PreferenceScreen>
+</PreferenceScreen>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_categories">
+        <item>Automobiles</item>
+        <item>Books</item>
+        <item>Business</item>
+        <item>Climate</item>
+        <item>Comics</item>
+        <item>Comics</item>
+        <item>Deals</item>
+        <item>Economics</item>
+        <item>Education</item>
+        <item>Entertainment</item>
+        <item>Fashion</item>
+        <item>Finance</item>
+        <item>Fitness</item>
+        <item>Food</item>
+        <item>Gadgets</item>
+        <item>Gaming</item>
+        <item>Hardware</item>
+        <item>Health</item>
+        <item>International</item>
+        <item>Marketing</item>
+        <item>Music</item>
+        <item>National</item>
+        <item>Politics</item>
+        <item>Productivity</item>
+        <item>Programming</item>
+        <item>Research</item>
+        <item>Science</item>
+        <item>Software</item>
+        <item>Space</item>
+        <item>Sports</item>
+        <item>Technology</item>
+        <item>Other</item>
+    </string-array>
+</resources>

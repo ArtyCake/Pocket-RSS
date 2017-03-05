@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryText</item>
+        <item name="android:textColorPrimaryInverse">@color/colorPrimaryTextInverse</item>
+        <item name="android:textColorSecondaryInverse">@color/colorSecondaryTextInverse</item>
+        <item name="colorMainBackground">@color/colorBackground</item>
+        <item name="colorCardBackground">@color/colorBackgroundCard</item>
+        <item name="colorIcons">@color/colorIcons</item>
+        <item name="colorDivider">@color/colorDivider</item>
+        <item name="iconOpen">@drawable/ic_open</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back</item>
+        <item name="colorDrawerIcons">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimaryInverse</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkInverse</item>
+        <item name="colorAccent">@color/colorAccentInverse</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryTextInverse</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryTextInverse</item>
+        <item name="android:textColorPrimaryInverse">@color/colorPrimaryText</item>
+        <item name="android:textColorSecondaryInverse">@color/colorSecondaryText</item>
+        <item name="colorMainBackground">@color/colorBackgroundInverse</item>
+        <item name="colorCardBackground">@color/colorBackgroundCardInverse</item>
+        <item name="colorIcons">@color/colorIconsInverse</item>
+        <item name="colorDivider">@color/colorDividerInverse</item>
+        <item name="iconOpen">@drawable/ic_open_inverse</item>
+        <item name="colorDrawerIcons">@color/colorSecondaryTextInverse</item>
+    </style>
+
+    <style name="AppTheme.Dark.NoActionBar" parent="AppTheme.Dark">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Dialog">
+    </style>
+
+
+</resources>

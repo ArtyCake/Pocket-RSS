@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_categories">
+        <item>Автомобили</item>
+        <item>Акции</item>
+        <item>Бизнес</item>
+        <item>Гаджеты</item>
+        <item>Еда</item>
+        <item>Здоровье</item>
+        <item>Игры</item>
+        <item>Исследования</item>
+        <item>Климат</item>
+        <item>Книги</item>
+        <item>Комиксы</item>
+        <item>Космос</item>
+        <item>Маркетинг</item>
+        <item>Международные</item>
+        <item>Мода</item>
+        <item>Музыка</item>
+        <item>Наука</item>
+        <item>Национальные</item>
+        <item>Образование</item>
+        <item>Политика</item>
+        <item>Программирование</item>
+        <item>Продуктивность</item>
+        <item>Развлечения</item>
+        <item>Софт</item>
+        <item>Спорт</item>
+        <item>Технологии</item>
+        <item>Устройства</item>
+        <item>Финансы</item>
+        <item>Фитнес</item>
+        <item>Экономика</item>
+        <item>Прочее</item>
+    </string-array>
+</resources>

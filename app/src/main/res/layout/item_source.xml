@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+    >
+
+    <ImageView
+        android:id="@+id/source_cover"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/article_cover_background"
+        android:tint="@android:color/holo_blue_bright"/>
+
+    <TextView
+        android:id="@+id/source_cover_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/source_cover"
+        android:layout_alignEnd="@id/source_cover"
+        android:layout_alignLeft="@id/source_cover"
+        android:layout_alignRight="@id/source_cover"
+        android:layout_alignStart="@id/source_cover"
+        android:layout_alignTop="@id/source_cover"
+        android:gravity="center"
+        android:textColor="?attr/colorIcons"
+        android:textStyle="bold"
+        tools:text="Ha"
+        />
+
+    <TextView
+        android:id="@+id/source_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/source_cover_text"
+        android:layout_toRightOf="@id/source_cover_text"
+        android:padding="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:text="Technology"
+        />
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/source_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:focusable="false"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_settings"/>
+</RelativeLayout>

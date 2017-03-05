@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="?attr/colorCardBackground"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        >
+
+        <ImageView
+            android:id="@+id/article_cover"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/article_cover_background"
+            android:tint="@android:color/holo_blue_bright"/>
+
+        <TextView
+            android:id="@+id/article_cover_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/article_cover"
+            android:layout_alignEnd="@id/article_cover"
+            android:layout_alignLeft="@id/article_cover"
+            android:layout_alignRight="@id/article_cover"
+            android:layout_alignStart="@id/article_cover"
+            android:layout_alignTop="@id/article_cover"
+            android:gravity="center"
+            android:textColor="?attr/colorIcons"
+            android:textSize="20sp"
+            tools:text="Ha"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/source_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/article_cover"
+            android:layout_toRightOf="@+id/article_cover"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp"
+            tools:text="Habrahabr"/>
+
+        <TextView
+            android:id="@+id/category_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp"
+            tools:text="Technology"/>
+
+        <TextView
+            android:id="@+id/source_domain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/source_name"
+            android:layout_toEndOf="@+id/article_cover"
+            android:layout_toRightOf="@+id/article_cover"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textSize="12sp"
+            tools:text="habrahabr.ru"/>
+
+        <TextView
+            android:id="@+id/article_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/category_name"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textSize="12sp"
+            tools:text="Mon, 27 feb 2017"/>
+
+        <TextView
+            android:id="@+id/article_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/source_domain"
+            android:layout_toEndOf="@+id/article_cover"
+            android:layout_toRightOf="@+id/article_cover"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textSize="18sp"
+            tools:text="Охота на мифический MVC. Пользовательский интерфейс"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
