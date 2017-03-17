@@ -1,5 +1,5 @@
 # Pocket RSS
-[Play Market](https://play.google.com/store/apps/details?id=com.artycake.pocketrss)
+[Play Market](https://play.google.com/store/apps/details?id=com.artycake.pocketrss) | [Demo video](https://youtu.be/ma1bNZEIcsU)
 
 Simple and convenient app for reading RSS-feeds. It allows you to read your favorite news feeds.
 
